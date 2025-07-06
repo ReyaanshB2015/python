@@ -1,0 +1,5 @@
+print("enter the number")
+a=input()
+a=int (a)
+b= float (a ** 0.5)
+print("square root is ",b)
