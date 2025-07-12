@@ -1,5 +1,6 @@
-time=15
-if time>=10:
-    print("go to bed")
+i=float(input("enter ur buy AMOUNT "))
+t=float(input("enter ur sell AMOUNT "))
+if t>i:
+    print("u made profit hooray!!!!")
 else:
-    print( "stay awake")
+    print("u made a loss")
