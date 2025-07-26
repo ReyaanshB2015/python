@@ -1,0 +1,10 @@
+m=9
+n=5
+w=7
+d=m
+m=n
+n=w
+w=d
+print("m=",m)
+print("w=",w)
+print("n=",n)
