@@ -1,11 +1,11 @@
-r=int(input("enter the number of rows :"))
-for i in range(0,r+1,1):
-    s=""
-    c=""  
-    print()
-    for k in range(0,r-i,1):
-        s=" "+s
-      
-    for j in range (0,i,1): 
-        c=c+"*"   
-    print(s,c)
+rows=int(input("enter ur amount of rows "))
+star=""
+sp=""
+for i in range(0,rows,1):
+    star=""
+    sp=""
+    for k in range(rows-i):
+        sp=sp+" "
+    for j in range(0,i+1):
+        star=star+"*"
+    print(sp,star)
