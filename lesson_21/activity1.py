@@ -1,0 +1,14 @@
+empty_list=[]
+print(empty_list)
+alist=[1,2,3,4,5]
+print(alist)
+blist=[100,200,300,400,500]*2
+print(blist)
+clist=[222,333,444,555,676,777]
+print(clist[::-1])
+dlist=[3333,3655,4532,12345,44444,555555]
+print(dlist[3])
+print(dlist[5])
+print(dlist[-2])
+print(dlist[-5])
+print(dlist[1:5])
